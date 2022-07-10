@@ -1,0 +1,52 @@
+body {
+  /* CHANGES BACKGROUND COLOR TO THE MAROON COLOR background: 0 -100px repeat-x url(bg_gallery.png) #4F191A;*/
+  margin: 10px;
+}
+
+
+
+
+
+
+.in, .in1, .in2, .in3, .in4, .in5 {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+.slider {
+  display: inline-block;
+  justify-content: center;
+
+
+
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 80%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+
+
+}
+
+img {
+  display: none;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  padding: 15px;
+}

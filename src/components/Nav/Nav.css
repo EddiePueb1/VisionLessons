@@ -1,0 +1,35 @@
+nav  {
+  display: flex;
+  justify-content: space-between;
+  background-color:teal;
+  width: 100%;
+  padding: 2rem;
+}
+ ul {
+  display: block
+ }
+
+.logo {
+
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 25px;
+  text-decoration: none;
+
+}
+
+.nav-link{
+  background-color:aliceblue;
+  padding: 1rem;
+  border-radius: 25px;
+
+  
+}
+
+
+.nav-link:hover {
+  background-color: aqua;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
